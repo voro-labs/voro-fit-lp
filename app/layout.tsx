@@ -12,7 +12,24 @@ export const metadata: Metadata = {
   description:
     "O software inteligente para personal trainers que querem escalar seus resultados e manter seus alunos motivados. Treinos, dieta e acompanhamento em um só lugar.",
   keywords: ["personal trainer", "software fitness", "gestão de alunos", "treinos personalizados", "plano alimentar"],
-    generator: 'vorolabs.app'
+  generator: 'vorolabs.app',
+  icons: {
+    icon: [
+      {
+        url: "/icon-light-32x32.png",
+        media: "(prefers-color-scheme: light)",
+      },
+      {
+        url: "/icon-dark-32x32.png",
+        media: "(prefers-color-scheme: dark)",
+      },
+      {
+        url: "/icon.png",
+        type: "image/png",
+      },
+    ],
+    apple: "/apple-icon.png",
+  }
 }
 
 export default function RootLayout({
